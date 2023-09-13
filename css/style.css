@@ -1,0 +1,78 @@
+	*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+	}	
+	
+@media(max-width:760px){
+	header .text-end{
+		text-align:left !important;
+	}
+}
+	
+		.px-100{
+			width:100px;
+		}
+		.width-100{
+			width:100%;
+		}
+		.bg-white{
+			background-color:white;
+		}
+		.text-10{
+			font-size:10px;
+		}
+		.italic{
+			font-style:italic;
+		}
+		.dropdown:hover ul{
+			display:block;
+			z-index:100;
+			
+		}
+		.dropdown{
+			position:relative;
+			width:150px;
+			
+		}
+		.dropdown>ul{
+			background-color:white;
+			position:absolute;
+			top:61px;
+			padding:15px;
+			display:none;
+			
+		}
+		
+		.dd-relative{
+			position:relative;
+		}
+		nav #ddList{
+			position:absolute;
+			display:none;
+			
+		}
+		nav .dd-relative:hover #ddList{
+			display:block;
+			z-index:100;
+			background-color:white;
+			padding:10px;
+		}
+		.relative{
+			position:relative;
+			top:-10px;
+			transition:1s;
+		}
+		.relative-1{
+			position:relative;
+			top:-30px;
+			left:93%;
+		}
+		.bg-img{
+			background-image:url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90&quot);
+			height: 121px;
+			background-repeat: no-repeat;
+			background-position: revert;
+		}
+		
+		
